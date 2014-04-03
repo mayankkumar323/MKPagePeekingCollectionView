@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95DF56B118ED073A00E64EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF56B018ED073A00E64EBD /* Foundation.framework */; };
+		95DF56B318ED073A00E64EBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF56B218ED073A00E64EBD /* CoreGraphics.framework */; };
+		95DF56B518ED073A00E64EBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF56B418ED073A00E64EBD /* UIKit.framework */; };
+		95DF56BB18ED073A00E64EBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95DF56B918ED073A00E64EBD /* InfoPlist.strings */; };
+		95DF56BD18ED073A00E64EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF56BC18ED073A00E64EBD /* main.m */; };
+		95DF56C918ED073A00E64EBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DF56C818ED073A00E64EBD /* Images.xcassets */; };
+		95DF56D018ED073B00E64EBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF56CF18ED073B00E64EBD /* XCTest.framework */; };
+		95DF56D118ED073B00E64EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF56B018ED073A00E64EBD /* Foundation.framework */; };
+		95DF56D218ED073B00E64EBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF56B418ED073A00E64EBD /* UIKit.framework */; };
+		95DF56DA18ED073B00E64EBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95DF56D818ED073B00E64EBD /* InfoPlist.strings */; };
+		95DF56DC18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF56DB18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.m */; };
+		95DF56FC18ED07BD00E64EBD /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF56F518ED07BD00E64EBD /* MKAppDelegate.m */; };
+		95DF56FD18ED07BD00E64EBD /* MKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF56F718ED07BD00E64EBD /* MKCollectionViewCell.m */; };
+		95DF56FE18ED07BD00E64EBD /* MKPagePeekFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF56F918ED07BD00E64EBD /* MKPagePeekFlowLayout.m */; };
+		95DF56FF18ED07BD00E64EBD /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF56FB18ED07BD00E64EBD /* MKViewController.m */; };
+		95DF570218ED07DF00E64EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DF570018ED07DF00E64EBD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95DF56D318ED073B00E64EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DF56A518ED073A00E64EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DF56AC18ED073A00E64EBD;
+			remoteInfo = MKPagePeekingCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95DF56AD18ED073A00E64EBD /* MKPagePeekingCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKPagePeekingCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DF56B018ED073A00E64EBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95DF56B218ED073A00E64EBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95DF56B418ED073A00E64EBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95DF56B818ED073A00E64EBD /* MKPagePeekingCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKPagePeekingCollectionView-Info.plist"; sourceTree = "<group>"; };
+		95DF56BA18ED073A00E64EBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95DF56BC18ED073A00E64EBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95DF56BE18ED073A00E64EBD /* MKPagePeekingCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKPagePeekingCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		95DF56C818ED073A00E64EBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95DF56CE18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKPagePeekingCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DF56CF18ED073B00E64EBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		95DF56D718ED073B00E64EBD /* MKPagePeekingCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKPagePeekingCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
+		95DF56D918ED073B00E64EBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95DF56DB18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKPagePeekingCollectionViewTests.m; sourceTree = "<group>"; };
+		95DF56F418ED07BD00E64EBD /* MKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAppDelegate.h; sourceTree = "<group>"; };
+		95DF56F518ED07BD00E64EBD /* MKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
+		95DF56F618ED07BD00E64EBD /* MKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCollectionViewCell.h; sourceTree = "<group>"; };
+		95DF56F718ED07BD00E64EBD /* MKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCollectionViewCell.m; sourceTree = "<group>"; };
+		95DF56F818ED07BD00E64EBD /* MKPagePeekFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPagePeekFlowLayout.h; sourceTree = "<group>"; };
+		95DF56F918ED07BD00E64EBD /* MKPagePeekFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPagePeekFlowLayout.m; sourceTree = "<group>"; };
+		95DF56FA18ED07BD00E64EBD /* MKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
+		95DF56FB18ED07BD00E64EBD /* MKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
+		95DF570118ED07DF00E64EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DF56AA18ED073A00E64EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF56B318ED073A00E64EBD /* CoreGraphics.framework in Frameworks */,
+				95DF56B518ED073A00E64EBD /* UIKit.framework in Frameworks */,
+				95DF56B118ED073A00E64EBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF56CB18ED073B00E64EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF56D018ED073B00E64EBD /* XCTest.framework in Frameworks */,
+				95DF56D218ED073B00E64EBD /* UIKit.framework in Frameworks */,
+				95DF56D118ED073B00E64EBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DF56A418ED073A00E64EBD = {
+			isa = PBXGroup;
+			children = (
+				95DF56B618ED073A00E64EBD /* MKPagePeekingCollectionView */,
+				95DF56D518ED073B00E64EBD /* MKPagePeekingCollectionViewTests */,
+				95DF56AF18ED073A00E64EBD /* Frameworks */,
+				95DF56AE18ED073A00E64EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DF56AE18ED073A00E64EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DF56AD18ED073A00E64EBD /* MKPagePeekingCollectionView.app */,
+				95DF56CE18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DF56AF18ED073A00E64EBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95DF56B018ED073A00E64EBD /* Foundation.framework */,
+				95DF56B218ED073A00E64EBD /* CoreGraphics.framework */,
+				95DF56B418ED073A00E64EBD /* UIKit.framework */,
+				95DF56CF18ED073B00E64EBD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95DF56B618ED073A00E64EBD /* MKPagePeekingCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				95DF56F418ED07BD00E64EBD /* MKAppDelegate.h */,
+				95DF56F518ED07BD00E64EBD /* MKAppDelegate.m */,
+				95DF56F618ED07BD00E64EBD /* MKCollectionViewCell.h */,
+				95DF56F718ED07BD00E64EBD /* MKCollectionViewCell.m */,
+				95DF56F818ED07BD00E64EBD /* MKPagePeekFlowLayout.h */,
+				95DF56F918ED07BD00E64EBD /* MKPagePeekFlowLayout.m */,
+				95DF56FA18ED07BD00E64EBD /* MKViewController.h */,
+				95DF56FB18ED07BD00E64EBD /* MKViewController.m */,
+				95DF570018ED07DF00E64EBD /* Main.storyboard */,
+				95DF56C818ED073A00E64EBD /* Images.xcassets */,
+				95DF56B718ED073A00E64EBD /* Supporting Files */,
+			);
+			path = MKPagePeekingCollectionView;
+			sourceTree = "<group>";
+		};
+		95DF56B718ED073A00E64EBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95DF56B818ED073A00E64EBD /* MKPagePeekingCollectionView-Info.plist */,
+				95DF56B918ED073A00E64EBD /* InfoPlist.strings */,
+				95DF56BC18ED073A00E64EBD /* main.m */,
+				95DF56BE18ED073A00E64EBD /* MKPagePeekingCollectionView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95DF56D518ED073B00E64EBD /* MKPagePeekingCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				95DF56DB18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.m */,
+				95DF56D618ED073B00E64EBD /* Supporting Files */,
+			);
+			path = MKPagePeekingCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		95DF56D618ED073B00E64EBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95DF56D718ED073B00E64EBD /* MKPagePeekingCollectionViewTests-Info.plist */,
+				95DF56D818ED073B00E64EBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DF56AC18ED073A00E64EBD /* MKPagePeekingCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DF56DF18ED073B00E64EBD /* Build configuration list for PBXNativeTarget "MKPagePeekingCollectionView" */;
+			buildPhases = (
+				95DF56A918ED073A00E64EBD /* Sources */,
+				95DF56AA18ED073A00E64EBD /* Frameworks */,
+				95DF56AB18ED073A00E64EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKPagePeekingCollectionView;
+			productName = MKPagePeekingCollectionView;
+			productReference = 95DF56AD18ED073A00E64EBD /* MKPagePeekingCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95DF56CD18ED073B00E64EBD /* MKPagePeekingCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DF56E218ED073B00E64EBD /* Build configuration list for PBXNativeTarget "MKPagePeekingCollectionViewTests" */;
+			buildPhases = (
+				95DF56CA18ED073B00E64EBD /* Sources */,
+				95DF56CB18ED073B00E64EBD /* Frameworks */,
+				95DF56CC18ED073B00E64EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DF56D418ED073B00E64EBD /* PBXTargetDependency */,
+			);
+			name = MKPagePeekingCollectionViewTests;
+			productName = MKPagePeekingCollectionViewTests;
+			productReference = 95DF56CE18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DF56A518ED073A00E64EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mayank Kumar";
+				TargetAttributes = {
+					95DF56CD18ED073B00E64EBD = {
+						TestTargetID = 95DF56AC18ED073A00E64EBD;
+					};
+				};
+			};
+			buildConfigurationList = 95DF56A818ED073A00E64EBD /* Build configuration list for PBXProject "MKPagePeekingCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95DF56A418ED073A00E64EBD;
+			productRefGroup = 95DF56AE18ED073A00E64EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DF56AC18ED073A00E64EBD /* MKPagePeekingCollectionView */,
+				95DF56CD18ED073B00E64EBD /* MKPagePeekingCollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95DF56AB18ED073A00E64EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF570218ED07DF00E64EBD /* Main.storyboard in Resources */,
+				95DF56C918ED073A00E64EBD /* Images.xcassets in Resources */,
+				95DF56BB18ED073A00E64EBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF56CC18ED073B00E64EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF56DA18ED073B00E64EBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DF56A918ED073A00E64EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF56FF18ED07BD00E64EBD /* MKViewController.m in Sources */,
+				95DF56FD18ED07BD00E64EBD /* MKCollectionViewCell.m in Sources */,
+				95DF56FE18ED07BD00E64EBD /* MKPagePeekFlowLayout.m in Sources */,
+				95DF56FC18ED07BD00E64EBD /* MKAppDelegate.m in Sources */,
+				95DF56BD18ED073A00E64EBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF56CA18ED073B00E64EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF56DC18ED073B00E64EBD /* MKPagePeekingCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95DF56D418ED073B00E64EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DF56AC18ED073A00E64EBD /* MKPagePeekingCollectionView */;
+			targetProxy = 95DF56D318ED073B00E64EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95DF56B918ED073A00E64EBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DF56BA18ED073A00E64EBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95DF56D818ED073B00E64EBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DF56D918ED073B00E64EBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95DF570018ED07DF00E64EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DF570118ED07DF00E64EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95DF56DD18ED073B00E64EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95DF56DE18ED073B00E64EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95DF56E018ED073B00E64EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPagePeekingCollectionView/MKPagePeekingCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "MKPagePeekingCollectionView/MKPagePeekingCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95DF56E118ED073B00E64EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPagePeekingCollectionView/MKPagePeekingCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "MKPagePeekingCollectionView/MKPagePeekingCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95DF56E318ED073B00E64EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKPagePeekingCollectionView.app/MKPagePeekingCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPagePeekingCollectionView/MKPagePeekingCollectionView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MKPagePeekingCollectionViewTests/MKPagePeekingCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		95DF56E418ED073B00E64EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKPagePeekingCollectionView.app/MKPagePeekingCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKPagePeekingCollectionView/MKPagePeekingCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "MKPagePeekingCollectionViewTests/MKPagePeekingCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DF56A818ED073A00E64EBD /* Build configuration list for PBXProject "MKPagePeekingCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DF56DD18ED073B00E64EBD /* Debug */,
+				95DF56DE18ED073B00E64EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DF56DF18ED073B00E64EBD /* Build configuration list for PBXNativeTarget "MKPagePeekingCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DF56E018ED073B00E64EBD /* Debug */,
+				95DF56E118ED073B00E64EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95DF56E218ED073B00E64EBD /* Build configuration list for PBXNativeTarget "MKPagePeekingCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DF56E318ED073B00E64EBD /* Debug */,
+				95DF56E418ED073B00E64EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95DF56A518ED073A00E64EBD /* Project object */;
+}
