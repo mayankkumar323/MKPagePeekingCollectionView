@@ -1,4 +1,4 @@
-pagePeekingCollectionView
+MKPagePeekingCollectionView
 =========================
 
 A UICollectionViewFlowLayout with paging and peek.
